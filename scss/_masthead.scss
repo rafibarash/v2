@@ -6,7 +6,7 @@
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, fade-out($white, 0.9) 0%, fade-out($white, 0.9) 100%), url('../img/bg-masthead.jpg');
+  background: rgb(245, 245, 245);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,4 +21,16 @@
       font-size: 5.5rem;
     }
   }
+}
+
+/* Typed.js */
+
+#typed,
+.typed-cursor {
+  font-size: 4rem;
+  /*color: white;*/
+}
+
+#typedjs {
+  margin-bottom: 3rem;
 }

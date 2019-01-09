@@ -93,8 +93,7 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-masthead.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background: whitesmoke;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -113,6 +112,17 @@ h6 {
   .masthead h1 {
     font-size: 5.5rem;
   }
+}
+
+/* Typed.js */
+#typed,
+.typed-cursor {
+  font-size: 4rem;
+  /*color: white;*/
+}
+
+#typedjs {
+  margin-bottom: 3rem;
 }
 
 /* Side Menu */
@@ -259,13 +269,18 @@ h6 {
 }
 
 .portfolio-item .caption .caption-content h2 {
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-transform: uppercase;
 }
 
 .portfolio-item .caption .caption-content p {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.2rem;
+}
+
+.portfolio-item img {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
 }
 
 @media (min-width: 992px) {

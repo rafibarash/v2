@@ -17,20 +17,24 @@
       color: $white;
       margin: auto 2rem 2rem;
       h2 {
-        font-size: 0.8rem;
+        font-size: 1rem;
         text-transform: uppercase;
       }
       p {
-        font-weight: 300;
+        font-weight: 400;
         font-size: 1.2rem;
       }
     }
   }
-  @media(min-width: 992px) {
+  img {
+    filter: brightness(50%);
+  }
+  @media (min-width: 992px) {
     max-width: none;
     margin: 0;
     .caption {
-      -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
+      -webkit-transition: -webkit-clip-path 0.25s ease-out,
+        background-color 0.7s;
       -webkit-clip-path: inset(0px);
       clip-path: inset(0px);
       .caption-content {

@@ -21,18 +21,6 @@ var banner = [
 ].join("");
 
 // Nunjuncks templating
-// gulp.task("nunjucks", function() {
-//   nunjucksRender.nunjucks.configure(["templates/"]);
-//   // Gets .html and .nunjucks files in pages
-//   return (
-//     gulp
-//       .src("pages/**/*.+(html|nunjucks)")
-//       // Renders template with nunjucks
-//       .pipe(nunjucksRender())
-//       // output files in app folder
-//       .pipe(gulp.dest("public"))
-//   );
-// });
 gulp.task("nunjucks", function() {
   return gulp
     .src("pages/**/*.+(nunjucks|html)")
@@ -79,6 +67,9 @@ gulp.task("vendor", function() {
   gulp
     .src(["./node_modules/simple-line-icons/css/**"])
     .pipe(gulp.dest("./vendor/simple-line-icons/css"));
+
+  // // Typed.js
+  // gulp.src(["./node_modules/typed.js/*.js"]).pipe(gulp.dest("./vendor/typed"));
 });
 
 // Compile SCSS

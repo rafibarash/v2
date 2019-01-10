@@ -21,6 +21,13 @@
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.min.css" rel="stylesheet">
 
+    <!-- Lazy Load Images -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+    <script>
+      const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+      observer.observe();
+    </script>
+
   </head>
 
   <body id="page-top">
@@ -46,10 +53,6 @@
         loop: false,
       });
     </script>
-
-    <!-- Lazy Loader -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
-    <script>$("img.lazy").lazyload();</script>
 
     <!-- Jquery Easing -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>

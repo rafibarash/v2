@@ -24,7 +24,7 @@
     <!-- Lazy Load Images -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
     <script>
-      const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+      const observer = window.lozad(); // lazy loads elements with default selector as '.lozad'
       observer.observe();
     </script>
 
@@ -146,9 +146,7 @@
     <!-- Portfolio -->
     <section class="content-section" id="portfolio">
   <div class="container">
-    
-      <h2 class="mb-5 text-center">Portfolio</h2>
-    
+    <h2 class="mb-5 text-center">Portfolio</h2>
     <div class="row no-gutters">
       
       <div class="col-lg-6">

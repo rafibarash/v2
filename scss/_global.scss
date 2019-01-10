@@ -19,9 +19,9 @@ body {
   padding-bottom: 7.5rem;
 }
 
-.content-section-heading {
+.content-section {
   h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   h3 {
     font-size: 1rem;
@@ -43,22 +43,6 @@ h6 {
   color: fade-out($white, 0.3);
 }
 
-/* Map */
-
-.map {
-  height: 30rem;
-}
-
-@media(max-width: 992px) {
-  .map {
-    height: 75%;
-  }
-}
-
-.map iframe {
-  pointer-events: none;
-}
-
 // Scroll to top button
 .scroll-to-top {
   position: fixed;
@@ -73,7 +57,7 @@ h6 {
   text-align: center;
 
   color: white;
-  background: fade-out($gray-800, .5);
+  background: fade-out($gray-800, 0.5);
 
   line-height: 45px;
   &:focus,

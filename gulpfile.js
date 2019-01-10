@@ -6,6 +6,7 @@ var rename = require("gulp-rename");
 var uglify = require("gulp-uglify");
 var autoprefixer = require("gulp-autoprefixer");
 var nunjucksRender = require("gulp-nunjucks-render");
+var data = require("gulp-data");
 var pkg = require("./package.json");
 var browserSync = require("browser-sync").create();
 
@@ -20,10 +21,15 @@ var banner = [
   "\n"
 ].join("");
 
-// Nunjuncks templating
+// Nunjucks templating
 gulp.task("nunjucks", function() {
   return gulp
     .src("pages/**/*.+(nunjucks|html)")
+    .pipe(
+      data(function() {
+        return require("./portfolio.json");
+      })
+    )
     .pipe(
       nunjucksRender({
         path: ["templates"]

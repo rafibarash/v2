@@ -1,0 +1,58 @@
+{
+  "portfolio": [
+    {
+      "title": "ML March Madness",
+      "description": "A machine learning attempt to predict results of march madness matchups, based on years of regular season and tourney data.",
+      "href": "https://github.com/rafibarash/ml_march_madness/blob/master/Neural_Net_March_Madness_ML.ipynb",
+      "src": "./img/ml_march_madness.png"
+    },
+    {
+      "title": "Global City Data",
+      "description": "Used by the U of Minnesota to host descriptions of open access urban data sets collected by a network of international researchers.",
+      "href": "https://globalcitydata.com",
+      "src": "./img/gcd.png"
+    },
+    {
+      "title": "Planet Wars Strategy",
+      "description": "Given a planet wars game engine, my friend and I created a strategy in Java to take over the solar system. Mwuahahaha! School project.",
+      "href": "https://github.com/rafibarash/planetwars",
+      "src": "./img/planetwars.png"
+    },
+    {
+      "title": "Data Structures Cheat Sheet",
+      "description": "Java implementations of popular data structures, complete with time + space analysis.",
+      "href": "https://github.com/rafibarash/Data-Structures-Cheat-Sheet",
+      "src": "./img/data-structures.png"
+    },
+    {
+      "title": "Anu Ramaswami's Website",
+      "description": "A Django powered website for Anu Ramaswami, Chair of Science, Technology, and Public Policy at the Humphrey School of Public Affairs.",
+      "href": "https://anuramaswami.com",
+      "src": "./img/anu-website.png"
+    },
+    {
+      "title": "This Website",
+      "description": "I built this very website! It is completely static and hosted by the good grace of Github Pages.",
+      "href": "https://rafibarash.com",
+      "src": "./img/mywebsite.png"
+    },
+    {
+      "title": "Blackjack",
+      "description": "Play blackjack with as many players as you'd like against a computer dealer in this interactive Python script. Money updated in real time.",
+      "href": "https://github.com/rafibarash/blackjack-simulation",
+      "src": "./img/blackjack.png"
+    },
+    {
+      "title": "Forest Fire Simulation",
+      "description": "A Python script visualizing a forest fire in turtle graphics, dynamically based on forest characteristic inputs. School project.",
+      "href": "https://github.com/rafibarash/forest-fire",
+      "src": "./img/forestfire.png"
+    },
+    {
+      "title": "Hangman",
+      "description": "An interactive Python script where you can play hangman against the computer, visualized in turtle graphics. School project.",
+      "href": "https://github.com/rafibarash/hangman",
+      "src": "./img/hangman.png"
+    }
+  ]
+}

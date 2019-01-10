@@ -23,11 +23,11 @@ body {
   padding-bottom: 7.5rem;
 }
 
-.content-section-heading h2 {
-  font-size: 3rem;
+.content-section h2 {
+  font-size: 2.5rem;
 }
 
-.content-section-heading h3 {
+.content-section h3 {
   font-size: 1rem;
   text-transform: uppercase;
 }
@@ -43,21 +43,6 @@ h6 {
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
-}
-
-/* Map */
-.map {
-  height: 30rem;
-}
-
-@media (max-width: 992px) {
-  .map {
-    height: 75%;
-  }
-}
-
-.map iframe {
-  pointer-events: none;
 }
 
 .scroll-to-top {
@@ -214,34 +199,6 @@ h6 {
   background: #343a40;
 }
 
-.service-icon {
-  background-color: #fff;
-  color: #1D809F;
-  height: 7rem;
-  width: 7rem;
-  display: block;
-  line-height: 7.5rem;
-  font-size: 2.25rem;
-  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-}
-
-.callout {
-  padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-callout.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.callout h2 {
-  font-size: 3.5rem;
-  font-weight: 700;
-  display: block;
-  max-width: 30rem;
-}
-
 .portfolio-item {
   display: block;
   position: relative;
@@ -268,8 +225,8 @@ h6 {
   margin: auto 2rem 2rem;
 }
 
-.portfolio-item .caption .caption-content h2 {
-  font-size: 1rem;
+.portfolio-item .caption .caption-content h3 {
+  font-size: 1.1rem;
   text-transform: uppercase;
 }
 

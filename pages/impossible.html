@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block content %} 
+   <!-- Navigation -->
+   {% include "partials/nav.html" %} 
+
+    <section id="impossible">
+      <div class="container">
+        <h1 class="text-center m-4">Impossible List</h1>
+        <section class="bg-light p-4">
+          <p>My impossible List</p>
+        </section>
+      </div>
+    </section> 
+
+    <!-- Footer -->
+    {% include "partials/footer.html" %}
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+{% endblock %}

@@ -4,14 +4,14 @@
     <div class="row no-gutters">
       {% for p in portfolio %}
       <div class="col-lg-6">
-        <a class="portfolio-item" href={{p.href}} target="_blank">
+        <a class="portfolio-item" href="{{p.href}}" target="_blank">
               <span class="caption">
                 <span class="caption-content">
                   <h3>{{p.title}}</h3>
                   <p class="mb-0">{{p.description}}</p>
                 </span>
               </span>
-          <img class="img-fluid lozad" data-src={{p.src}} alt={{p.title}}>
+          <img class="img-fluid lozad" data-src="{{p.src}}" alt="{{p.title}}">
         </a>
       </div>
       {% endfor %}

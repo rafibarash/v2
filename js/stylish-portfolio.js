@@ -52,3 +52,6 @@
     }
   });
 })(jQuery); // End of use strict
+
+// Initialize lozad lazy loading
+lozad(".lozad").observe();

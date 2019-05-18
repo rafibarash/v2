@@ -5,6 +5,10 @@
   "description": "Personal Website of Rafi Barash",
   "private": true,
   "author": "Rafi Barash",
+  "scripts": {
+    "start": "gulp dev",
+    "build": "gulp"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.3.1",
     "bootstrap": "4.1.3",
